@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="104567" started-at="2019-07-01T07:13:20Z" finished-at="2019-07-01T07:15:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="104567" started-at="2019-07-01T07:13:20Z" finished-at="2019-07-01T07:15:05Z">
+      <class name="com.check24.TravelPage">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.check24.TravelPage@3532ec19]" name="beforeMethod" is-config="true" duration-ms="5630" started-at="2019-07-01T15:13:21Z" finished-at="2019-07-01T15:13:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testRegisterForJourney(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.check24.TravelPage@3532ec19]" name="testRegisterForJourney" duration-ms="97665" started-at="2019-07-01T15:13:26Z" data-provider="getData" finished-at="2019-07-01T15:15:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test3000@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ Test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[   ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterForJourney -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.check24.TravelPage@3532ec19]" name="afterMethod" is-config="true" duration-ms="942" started-at="2019-07-01T15:15:04Z" finished-at="2019-07-01T15:15:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.check24.TravelPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
